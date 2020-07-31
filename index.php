@@ -10,6 +10,10 @@
 <body>
 <?require_once($_SERVER['DOCUMENT_ROOT'].'/asset/page/header.php')?>
 
+<? 
+$date = mktime(0, 0, 0, date("m"), date("d")-7, date("Y"));
+echo date('d-m-Y H:i:s',$date);
+?>
     <div class="am"></div>
 
     <div class="products">
@@ -48,9 +52,6 @@
             </div>
         </div>
 
-
-
-        
 
     </div>
 
