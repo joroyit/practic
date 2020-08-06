@@ -18,15 +18,15 @@ echo date('d-m-Y H:i:s',$date);
 
     <div class="products">
 
-        <div class="item" data-id="54">
+        <div class="item class class2 class3" data-id="54">
             <div class="img"></div>
             <div class="sku">
                 <div class="fild">
-                    <input class="" type="radio" name="product_54" data-sku-id="">
+                    <input class="" type="radio" name="product_54" data-sku-id="" data-color-id="blue">
                     <span> Синий </span>
                 </div>
                 <div class="fild">
-                    <input class="" type="radio" name="product_54" data-sku-id="">
+                    <input class="" type="radio" name="product_54" data-sku-id="" data-color-id="red">
                     <span> Белый </span>
                 </div>
             </div>
@@ -35,15 +35,15 @@ echo date('d-m-Y H:i:s',$date);
             </div>
         </div>
 
-        <div class="item" data-id="86">
+        <div class="item class class2 class3" data-id="86">
             <div class="img"></div>
             <div class="sku">
                 <div class="fild">
-                    <input class="" type="radio" name="product_86" data-sku-id="">
+                    <input class="" type="radio" name="product_86" data-sku-id="" data-color-id="blue">
                     <span> Синий </span>
                 </div>
                 <div class="fild">
-                    <input class="" type="radio" name="product_86" data-sku-id="">
+                    <input class="" type="radio" name="product_86" data-sku-id="" data-color-id="red">
                     <span> Белый </span>
                 </div>
             </div>

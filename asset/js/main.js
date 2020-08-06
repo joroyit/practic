@@ -14,15 +14,17 @@ window.addEventListener("DOMContentLoaded", function(event) {
     };
 
     function log_am_list(e){
-      debugger;
-      console.log(e.target.closest('.item'));
-      e.target.closest('.item');
+      let item = e.target.closest('.item'),
+      img = e.target.closest('.item').querySelector('.img');
+      colorInput = e.target.getAttribute('data-color-id')
+
+      img.classList.forEach(classItem => {
+        if(classItem != 'img')
+          img.classList.remove(classItem);
+      })
+      img.classList.add(colorInput);
       
       //   --- 
-
-      let blox = e.target.closest('.item');
-      console.log(blox.querySelector('.img'));
-
     };
 
     block.addEventListener("click", log_am);

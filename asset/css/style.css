@@ -1,5 +1,11 @@
 .products .img {
-    background: red;
+    background: #000;
     height: 20px;
     width: 20px;
+}
+.products .img.blue {
+    background: blue;
+}
+.products .img.red{
+    background: red;
 }
