@@ -2,7 +2,9 @@
 window.addEventListener("load", function(event) {
     document.querySelector('.am').innerHTML = '113 - js load-all';
   });
+
 window.addEventListener("DOMContentLoaded", function(event) {
+  
     let block = document.querySelector('.am');
     let inputProduct = document.querySelectorAll('.fild input');
 

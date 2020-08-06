@@ -18,6 +18,9 @@ echo date('d-m-Y H:i:s',$date);
 
     <div class="products">
 
+    <? // $item = массив, товаров.
+     require_once($_SERVER['DOCUMENT_ROOT'].'/array.php');?>
+
         <div class="item class class2 class3" data-id="54">
             <div class="img"></div>
             <div class="sku">
